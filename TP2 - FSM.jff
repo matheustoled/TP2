@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="0">
+			<x>61.0</x>
+			<y>37.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="5">
+			<x>286.0</x>
+			<y>37.0</y>
+		</state>
+		<state id="2" name="9">
+			<x>491.0</x>
+			<y>37.0</y>
+		</state>
+		<state id="3" name="0">
+			<x>716.0</x>
+			<y>37.0</y>
+		</state>
+		<state id="4" name="0">
+			<x>922.0</x>
+			<y>37.0</y>
+		</state>
+		<state id="5" name="6">
+			<x>1127.0</x>
+			<y>37.0</y>
+		</state>
+		<state id="6" name="S">
+			<x>1618.0</x>
+			<y>37.0</y>
+			<final/>
+		</state>
+		<state id="7" name="ERRO">
+			<x>63.0</x>
+			<y>219.0</y>
+		</state>
+		<state id="8" name="ERRO">
+			<x>288.0</x>
+			<y>219.0</y>
+		</state>
+		<state id="9" name="ERRO">
+			<x>493.0</x>
+			<y>220.0</y>
+		</state>
+		<state id="10" name="ERRO">
+			<x>718.0</x>
+			<y>219.0</y>
+		</state>
+		<state id="11" name="ERRO">
+			<x>923.0</x>
+			<y>219.0</y>
+		</state>
+		<state id="12" name="ERRO">
+			<x>1130.0</x>
+			<y>218.0</y>
+		</state>
+		<state id="13" name="P">
+			<x>1622.0</x>
+			<y>218.0</y>
+			<final/>
+		</state>
+		<state id="14" name="ERRO">
+			<x>196.0</x>
+			<y>374.0</y>
+		</state>
+		<state id="15" name="ERRO">
+			<x>485.0</x>
+			<y>374.0</y>
+		</state>
+		<state id="16" name="ERRO">
+			<x>731.0</x>
+			<y>374.0</y>
+		</state>
+		<state id="17" name="ERRO">
+			<x>988.0</x>
+			<y>374.0</y>
+		</state>
+		<state id="18" name="ERRO">
+			<x>1204.0</x>
+			<y>375.0</y>
+		</state>
+		<state id="19" name="ERRO">
+			<x>1442.0</x>
+			<y>377.0</y>
+		</state>
+		<state id="20" name="F">
+			<x>1627.0</x>
+			<y>377.0</y>
+			<final/>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>8</from>
+			<to>2</to>
+			<read>9</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>5</to>
+			<read>6</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>9</read>
+		</transition>
+		<transition>
+			<from>14</from>
+			<to>15</to>
+			<read>Input ≠ 5</read>
+		</transition>
+		<transition>
+			<from>11</from>
+			<to>18</to>
+			<read>Erro 2 (Input ≠ 6)</read>
+		</transition>
+		<transition>
+			<from>11</from>
+			<to>5</to>
+			<read>6</read>
+		</transition>
+		<transition>
+			<from>19</from>
+			<to>20</to>
+			<read>Input ≠ 0</read>
+		</transition>
+		<transition>
+			<from>16</from>
+			<to>17</to>
+			<read>Input  ≠ 0</read>
+		</transition>
+		<transition>
+			<from>17</from>
+			<to>18</to>
+			<read>Input ≠ 0</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>18</to>
+			<read>Erro 2 (Input ≠ 6)</read>
+		</transition>
+		<transition>
+			<from>18</from>
+			<to>19</to>
+			<read>Input ≠ 6</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>7</to>
+			<read>Erro 1 (Input ≠ 5)</read>
+		</transition>
+		<transition>
+			<from>14</from>
+			<to>15</to>
+			<read>5</read>
+		</transition>
+		<transition>
+			<from>15</from>
+			<to>16</to>
+			<read>Input ≠ 9</read>
+		</transition>
+		<transition>
+			<from>19</from>
+			<to>20</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>1</to>
+			<read>5</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>8</to>
+			<read>Erro 1 (Input ≠ 9) </read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>5</read>
+		</transition>
+		<transition>
+			<from>17</from>
+			<to>18</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>18</from>
+			<to>19</to>
+			<read>6</read>
+		</transition>
+		<transition>
+			<from>16</from>
+			<to>17</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>10</from>
+			<to>17</to>
+			<read>Erro 2 (Input ≠ 0)</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>15</to>
+			<read>Erro 2 (Input ≠ 9)</read>
+		</transition>
+		<transition>
+			<from>8</from>
+			<to>15</to>
+			<read>Erro 2 (Input ≠ 9)</read>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>6</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>12</from>
+			<to>19</to>
+			<read>Erro 2 (Input ≠ 0)</read>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>13</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>9</to>
+			<read>Erro 1 (Input ≠ 0)</read>
+		</transition>
+		<transition>
+			<from>9</from>
+			<to>16</to>
+			<read>Erro 2 (Input ≠ 0)</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>16</to>
+			<read>Erro 2 (Input ≠ 0)</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>14</to>
+			<read>Erro 2 (Input ≠ 5)</read>
+		</transition>
+		<transition>
+			<from>10</from>
+			<to>4</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>12</to>
+			<read>Erro 1 (Input ≠ 0)</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>3</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>9</from>
+			<to>3</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>12</from>
+			<to>13</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>19</to>
+			<read>Erro 2 (Input ≠ 0)</read>
+		</transition>
+		<transition>
+			<from>15</from>
+			<to>16</to>
+			<read>9</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>10</to>
+			<read>Erro 1 (Input ≠ 0)</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>17</to>
+			<read>Erro 2 (Input ≠ 0)</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>11</to>
+			<read>Erro 1 (Input ≠ 6)</read>
+		</transition>
+	</automaton>
+</structure>

@@ -4,7 +4,6 @@ module top_module (
     input insere,
     input [3:0] entrada,
     output [6:0] display1,
-    output [6:0] display2,
     output led
 );
 
@@ -26,7 +25,6 @@ module top_module (
         .entrada(entrada),
         .estado(estadoatual),
         .display1(display1),
-        .display2(display2)
     );
 
     LEDController led_controller_inst (

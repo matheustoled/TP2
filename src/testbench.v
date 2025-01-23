@@ -24,6 +24,12 @@ module top_module_tb;
     // Gera o clock
     always #5 clk = ~clk;
 
+    //comandos para gerar o arquivo VCD
+    initial begin
+        $dumpfile("arquivos/simulacao_ondas.vcd");
+        $dumpvars(0, top_module_tb); //grava todas as variáveis do módulo testbench.v
+    end
+
     initial begin
         // Inicialização
         clk = 0;

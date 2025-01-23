@@ -1,0 +1,411 @@
+$date
+	Thu Jan 23 15:43:21 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module top_module_tb $end
+$var wire 1 ! led $end
+$var wire 7 " display1 [6:0] $end
+$var reg 1 # clk $end
+$var reg 4 $ entrada [3:0] $end
+$var reg 1 % insere $end
+$var reg 1 & reset $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 4 ' entrada [3:0] $end
+$var wire 1 % insere $end
+$var wire 1 & reset $end
+$var wire 4 ( proximoestado [3:0] $end
+$var wire 1 ! led $end
+$var wire 4 ) estadoatual [3:0] $end
+$var wire 7 * display1 [6:0] $end
+$var wire 1 + controlar_led $end
+$scope module controlador_inst $end
+$var wire 1 # clk $end
+$var wire 4 , entrada [3:0] $end
+$var wire 1 % insere $end
+$var wire 1 & reset $end
+$var parameter 4 - falha $end
+$var parameter 4 . inicial $end
+$var parameter 4 / path1 $end
+$var parameter 4 0 path1_e $end
+$var parameter 4 1 path2 $end
+$var parameter 4 2 path2_e $end
+$var parameter 4 3 path3 $end
+$var parameter 4 4 path3_e $end
+$var parameter 4 5 path4 $end
+$var parameter 4 6 path4_e $end
+$var parameter 4 7 path5 $end
+$var parameter 4 8 path5_e $end
+$var parameter 4 9 path6_e $end
+$var parameter 4 : path6_sucesso $end
+$var parameter 4 ; path7_parcial $end
+$var reg 1 + controlar_led $end
+$var reg 4 < estadoatual [3:0] $end
+$var reg 4 = proximoestado [3:0] $end
+$upscope $end
+$scope module display_decoder_inst $end
+$var wire 4 > entrada [3:0] $end
+$var wire 4 ? estado [3:0] $end
+$var reg 7 @ display1 [6:0] $end
+$upscope $end
+$scope module led_controller_inst $end
+$var wire 1 # clk $end
+$var wire 1 + controlar_led $end
+$var wire 1 & reset $end
+$var reg 1 ! led $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1101 ;
+b110 :
+b1100 9
+b1011 8
+b101 7
+b1010 6
+b100 5
+b1001 4
+b11 3
+b1000 2
+b10 1
+b111 0
+b1 /
+b0 .
+b1110 -
+$end
+#0
+$dumpvars
+b1 @
+b0 ?
+b0 >
+b111 =
+b0 <
+b0 ,
+1+
+b1 *
+b0 )
+b111 (
+b0 '
+1&
+0%
+b0 $
+0#
+b1 "
+0!
+$end
+#5000
+1#
+#10000
+b1 (
+b1 =
+0+
+b100100 "
+b100100 *
+b100100 @
+0#
+b101 $
+b101 '
+b101 ,
+b101 >
+0&
+#15000
+1+
+b1000 (
+b1000 =
+b1 )
+b1 <
+b1 ?
+1#
+#20000
+0+
+b10 (
+b10 =
+b100 "
+b100 *
+b100 @
+0#
+b1001 $
+b1001 '
+b1001 ,
+b1001 >
+#25000
+1+
+b1001 (
+b1001 =
+b10 )
+b10 <
+b10 ?
+1#
+#30000
+0+
+b11 (
+b11 =
+b1 "
+b1 *
+b1 @
+0#
+b0 $
+b0 '
+b0 ,
+b0 >
+#35000
+b100 (
+b100 =
+b11 )
+b11 <
+b11 ?
+1#
+#40000
+0#
+#45000
+1+
+b1011 (
+b1011 =
+b100 )
+b100 <
+b100 ?
+1#
+#50000
+0+
+b101 (
+b101 =
+b100000 "
+b100000 *
+b100000 @
+0#
+b110 $
+b110 '
+b110 ,
+b110 >
+#55000
+1+
+b1100 (
+b1100 =
+b101 )
+b101 <
+b101 ?
+1#
+#60000
+0+
+b110 (
+b110 =
+b1 "
+b1 *
+b1 @
+0#
+b0 $
+b0 '
+b0 ,
+b0 >
+#65000
+b100100 "
+b100100 *
+b100100 @
+b110 )
+b110 <
+b110 ?
+1#
+#70000
+1+
+b111 (
+b111 =
+b1 "
+b1 *
+b1 @
+b0 )
+b0 <
+b0 ?
+0#
+1&
+#75000
+1#
+#80000
+b1 (
+b1 =
+0+
+b100100 "
+b100100 *
+b100100 @
+0#
+b101 $
+b101 '
+b101 ,
+b101 >
+0&
+#85000
+1+
+b1000 (
+b1000 =
+b1 )
+b1 <
+b1 ?
+1#
+#90000
+b0 "
+b0 *
+b0 @
+0#
+b1000 $
+b1000 '
+b1000 ,
+b1000 >
+#95000
+b1110 (
+b1110 =
+1!
+b1000 )
+b1000 <
+b1000 ?
+1#
+#100000
+b1001 (
+b1001 =
+b100 "
+b100 *
+b100 @
+0#
+b1001 $
+b1001 '
+b1001 ,
+b1001 >
+#105000
+b1110 (
+b1110 =
+b1001 )
+b1001 <
+b1001 ?
+1#
+#110000
+b1010 (
+b1010 =
+b1 "
+b1 *
+b1 @
+0#
+b0 $
+b0 '
+b0 ,
+b0 >
+#115000
+b1011 (
+b1011 =
+b1010 )
+b1010 <
+b1010 ?
+1#
+#120000
+0#
+#125000
+b1110 (
+b1110 =
+b1011 )
+b1011 <
+b1011 ?
+1#
+#130000
+b1100 (
+b1100 =
+b100000 "
+b100000 *
+b100000 @
+0#
+b110 $
+b110 '
+b110 ,
+b110 >
+#135000
+b1110 (
+b1110 =
+b1100 )
+b1100 <
+b1100 ?
+1#
+#140000
+b1101 (
+b1101 =
+b1 "
+b1 *
+b1 @
+0#
+b0 $
+b0 '
+b0 ,
+b0 >
+#145000
+b11000 "
+b11000 *
+b11000 @
+b1101 )
+b1101 <
+b1101 ?
+1#
+#150000
+b111 (
+b111 =
+1+
+b1 "
+b1 *
+b1 @
+0!
+b0 )
+b0 <
+b0 ?
+0#
+1&
+#155000
+1#
+#160000
+b1 (
+b1 =
+0+
+b100100 "
+b100100 *
+b100100 @
+0#
+b101 $
+b101 '
+b101 ,
+b101 >
+0&
+#165000
+1+
+b1000 (
+b1000 =
+b1 )
+b1 <
+b1 ?
+1#
+#170000
+b0 "
+b0 *
+b0 @
+0#
+b1000 $
+b1000 '
+b1000 ,
+b1000 >
+#175000
+b1110 (
+b1110 =
+b1000 )
+b1000 <
+b1000 ?
+1!
+1#
+#180000
+0#
+#185000
+b111000 "
+b111000 *
+b111000 @
+b1110 )
+b1110 <
+b1110 ?
+1#

@@ -24,7 +24,7 @@ module top_module (
     DisplayDecoder display_decoder_inst (
         .entrada(entrada),
         .estado(estadoatual),
-        .display1(display1),
+        .display1(display1)
     );
 
     LEDController led_controller_inst (

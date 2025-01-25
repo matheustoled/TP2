@@ -1,4 +1,4 @@
-module LEDController (
+module ControladorLED (
     input clk,
     input reset,
     input controlar_led,

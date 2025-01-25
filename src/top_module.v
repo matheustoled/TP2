@@ -21,13 +21,13 @@ module top_module (
         .controlar_led(controlar_led)
     );
 
-    DisplayDecoder display_decoder_inst (
+    MapeamentoDisplay mapeamentodisplay_inst (
         .entrada(entrada),
         .estado(estadoatual),
         .display1(display1)
     );
 
-    LEDController led_controller_inst (
+    ControladorLED controladorled_inst (
         .clk(clk),
         .reset(reset),
         .controlar_led(controlar_led),

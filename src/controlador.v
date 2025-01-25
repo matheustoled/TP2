@@ -9,7 +9,7 @@ module Controlador (
 );
     // Definicão de estados
     localparam inicial = 4'b0000;
-    // path6_Sucesso
+    // Sucesso
     localparam path1 = 4'b0001;
     localparam path2 = 4'b0010;
     localparam path3 = 4'b0011;

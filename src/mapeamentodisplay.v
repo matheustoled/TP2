@@ -1,6 +1,6 @@
-module DisplayDecoder (
+module MapeamentoDisplay (
     input [3:0] entrada,
-    input [3:0] estado, // Corrigido para usar o nome correto
+    input [3:0] estado, 
     output reg [6:0] display1);
 
     // Decodificação do número

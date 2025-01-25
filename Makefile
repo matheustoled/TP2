@@ -1,2 +1,2 @@
-compile: src/controlador.v src/display_decoder.v src/controlador_led.v src/top_module.v src/testbench.v
-	iverilog -o bin/teste src/controlador.v src/display_decoder.v src/controlador_led.v src/top_module.v src/testbench.v && vvp bin/teste && gtkwave simulacao_ondas.vcd
+compile: src/controlador.v src/mapeamentodisplay.v src/controladorled.v src/top_module.v src/testbench.v
+	iverilog -o bin/teste src/controlador.v src/mapeamentodisplay.v src/controladorled.v src/top_module.v src/testbench.v && vvp bin/teste && gtkwave arquivos/simulacao_ondas.vcd

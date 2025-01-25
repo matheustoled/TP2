@@ -1,5 +1,5 @@
 $date
-	Thu Jan 23 15:43:21 2025
+	Fri Jan 24 20:27:50 2025
 $end
 $version
 	Icarus Verilog
@@ -48,16 +48,16 @@ $var reg 1 + controlar_led $end
 $var reg 4 < estadoatual [3:0] $end
 $var reg 4 = proximoestado [3:0] $end
 $upscope $end
-$scope module display_decoder_inst $end
-$var wire 4 > entrada [3:0] $end
-$var wire 4 ? estado [3:0] $end
-$var reg 7 @ display1 [6:0] $end
-$upscope $end
-$scope module led_controller_inst $end
+$scope module controladorled_inst $end
 $var wire 1 # clk $end
 $var wire 1 + controlar_led $end
 $var wire 1 & reset $end
 $var reg 1 ! led $end
+$upscope $end
+$scope module mapeamentodisplay_inst $end
+$var wire 4 > entrada [3:0] $end
+$var wire 4 ? estado [3:0] $end
+$var reg 7 @ display1 [6:0] $end
 $upscope $end
 $upscope $end
 $upscope $end
